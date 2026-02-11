@@ -1,0 +1,14 @@
+/home/keiran/dev/personal/ReactionGame/ReactionGame/bin/Debug/net10.0/ReactionGame
+/home/keiran/dev/personal/ReactionGame/ReactionGame/bin/Debug/net10.0/ReactionGame.deps.json
+/home/keiran/dev/personal/ReactionGame/ReactionGame/bin/Debug/net10.0/ReactionGame.runtimeconfig.json
+/home/keiran/dev/personal/ReactionGame/ReactionGame/bin/Debug/net10.0/ReactionGame.dll
+/home/keiran/dev/personal/ReactionGame/ReactionGame/bin/Debug/net10.0/ReactionGame.pdb
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.AssemblyInfoInputs.cache
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.AssemblyInfo.cs
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.csproj.CoreCompileInputs.cache
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.dll
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/refint/ReactionGame.dll
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.pdb
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ReactionGame.genruntimeconfig.cache
+/home/keiran/dev/personal/ReactionGame/ReactionGame/obj/Debug/net10.0/ref/ReactionGame.dll
