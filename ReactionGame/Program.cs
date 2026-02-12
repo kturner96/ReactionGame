@@ -1,11 +1,24 @@
-﻿using Scores;
+﻿
+using Scores;
+using Requests;
 
 bool playerAlive = true;
 int score = 0;
 Random random = new();
 
+var scores = await LeaderboardRequests.GetScores();
+
+Console.WriteLine("-------- Leaderboard --------");
+
+foreach (var s in scores!)
+{
+    Console.WriteLine($"{s.name} - {s.score}");
+}
+
+Console.WriteLine("-----------------------------");
+
 Console.Write("Enter your name: ");
-string? username;
+string username;
 
 while (true)
 {
@@ -41,7 +54,11 @@ while (playerAlive)
         playerAlive = false;
         Console.WriteLine("------- Leaderboard --------");
         Console.Write($"{User.Name}: - Score [{User.Score}]");
+        await LeaderboardRequests.PostScores(score, username);
     }
 }
+
+
+
 
 enum Directions {Right = ConsoleKey.RightArrow, Left = ConsoleKey.LeftArrow, Up = ConsoleKey.UpArrow, Down = ConsoleKey.DownArrow }
