@@ -8,14 +8,21 @@ Random random = new();
 
 var scores = await LeaderboardRequests.GetScores();
 
-Console.WriteLine("-------- Leaderboard --------");
 
-foreach (var s in scores!)
+
+if (scores != null)
 {
-    Console.WriteLine($"{s.name} - {s.score}");
+    foreach (var s in scores!)
+    {
+        Console.WriteLine("-------- Leaderboard --------");
+        Console.WriteLine($"{s.name} - {s.score}");
+        Console.WriteLine("-----------------------------");
+    }
 }
 
-Console.WriteLine("-----------------------------");
+Console.WriteLine("No leaderboard data.");
+
+
 
 Console.Write("Enter your name: ");
 string username;
